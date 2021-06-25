@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <h3>Complete el siguiente formulario</h3>
+    <form action="action.php" method="post" enctype="text/plain">
+    <fieldset>
+        <legend>Información Personal:</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Nombre">
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" placeholder="Apellido">
+            <br>
+            <br>
+            <label for="talle">Talle:</label>
+            <select name="talle" id="">
+                <option value="s">Small</option>
+                <option value="m">Medium</option>
+                <option value="l">Large</option>
+                <option value="xs">Extra Small</option>
+                <option value="xl">Extra large</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" name="enviar" value="Enviar">
+    </fieldset>
+    </form>
+</body>
+</html>
